@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useEffect, useState } from 'react'
+import { createContext, useContext, ReactNode, useEffect, useState } from 'react'
 
 import { api } from '../services/api'
 
@@ -26,7 +26,7 @@ type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>
 //type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'type' | 'category'>
 //O contrário do omit você escolhe quais tipagens quer usar.
 
-export const TransactionsContext = createContext<TransactionsContextData>({} as TransactionsContextData)
+const TransactionsContext = createContext<TransactionsContextData>({} as TransactionsContextData)
 
 export function TransactionsProvider(props: TransactionsProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([])
@@ -49,10 +49,18 @@ export function TransactionsProvider(props: TransactionsProviderProps) {
 
   return (
     <TransactionsContext.Provider 
-      value={{ transactions, createTransaction }}
+      value={{ 
+        transactions, 
+        createTransaction
+      }}
     >
       { props.children }
     </TransactionsContext.Provider>
   )
 }
 
+export function useTransactions() {
+  const context = useContext(TransactionsContext)
+
+  return context
+}
