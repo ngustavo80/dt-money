@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://github.com/ngustavo80/dt-money/blob/main/src/assets/logo.svg" alt="dt-money logo">
-  <h1></br>Aplicação para controle de finanças</h1>
+  <h2></br>Aplicação para controle de finanças</h2>
 </div>
 
-## Tecnologias
+## Tecnologias utilizadas
 
   - [ReactJS](https://reactjs.org/)
   - [Typescript](https://www.typescriptlang.org/)
@@ -17,7 +17,7 @@
 ### Clonar Projeto
   
    ```bash
-$ git clone https://github.com/ngustavo80/letmeask.git
+$ git clone https://github.com/ngustavo80/dt-money.git
 ```  
 
 ### Instalar dependências
@@ -34,7 +34,7 @@ $ yarn start
 ## Imagens
 
 <div align="center">
-  <img src="https://github.com/ngustavo80/dt-money/blob/main/src/assets/Screenshot%20from%202021-08-26%2016-56-46.png" style="margin-bottom"/>
+  <img src="https://github.com/ngustavo80/dt-money/blob/main/src/assets/Screenshot%20from%202021-08-26%2016-56-46.png" />
   <img src="https://github.com/ngustavo80/dt-money/blob/main/src/assets/Screenshot%20from%202021-08-26%2016-55-46.png" />
 </div>
 
