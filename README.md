@@ -31,5 +31,16 @@ $ yarn
   ```bash
 $ yarn start
 ```
+## Imagens
 
-![GIF](https://media.giphy.com/media/jWrHjogIJ85i8ZYu03/giphy.gif?cid=790b7611191c3848b63d542a9c10f2c6dee0f4dc0ac1608c&rid=giphy.gif&ct=g)
+<div align="center">
+  <img src="https://github.com/ngustavo80/dt-money/blob/main/src/assets/Screenshot%20from%202021-08-26%2016-56-46.png" style="margin-bottom"/>
+  <img src="https://github.com/ngustavo80/dt-money/blob/main/src/assets/Screenshot%20from%202021-08-26%2016-55-46.png" />
+</div>
+
+## GIF
+
+<div align="center">
+  <img src="https://media.giphy.com/media/jWrHjogIJ85i8ZYu03/giphy.gif?cid=790b7611191c3848b63d542a9c10f2c6dee0f4dc0ac1608c&rid=giphy.gif&ct=g" width=50% />
+</div>
+
